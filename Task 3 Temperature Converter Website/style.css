@@ -1,0 +1,68 @@
+body{
+    place-items: center;
+    display: grid;
+    background-image:url(/img/sunset-g00c3eb913_1920.jpg);
+}
+
+#p1{
+    color: rgb(30, 30, 30);
+background-color: rgb(171, 236, 236);
+font-family: cursive;
+font-size: x-large;
+border: 2px solid #ffd5d5;
+border-radius: 30px;
+padding: 10px;
+margin-bottom: 10px;
+}
+#p2{ 
+    border: 2px solid black;
+    border-radius: 12px;
+    box-shadow: 2px 2px #888888;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+#p3{
+    border: 2px solid black;
+    border-radius: 12px;
+    box-shadow: 2px 2px #888888;
+    padding: 8px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+#p4{ color: rgb(0, 0, 0);
+    background-color: rgb(198, 224, 238); 
+    font-family: cursive;
+    border: 2px solid rgb(4, 4, 4);
+    border-radius: 6px;
+    box-shadow: 2px 2px #888888;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-left: 109px;
+}
+#p4:hover{
+    color: rgb(255, 255, 255);
+background-color: rgb(244, 61, 61);
+}
+#resultContainer{
+    font-family: cursive;
+    font-size: large;
+    font-weight: bolder;
+    
+}
+
+#p5{
+    font-family: cursive ;
+    color: rgb(255, 255, 255);
+    margin-left: 15px;
+    text-decoration: underline;
+}
+@media only screen and (max-width: 555px) {
+   #p1{
+    font-size: small;
+    padding: 5px;
+    margin: -2px;
+   }
+   #p3{
+    margin-left: 1px;
+   }
+  }
