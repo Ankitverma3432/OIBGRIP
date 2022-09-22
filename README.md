@@ -1,2 +1,2 @@
 # OIBSIP
-OasisInfobyte Intership
+Oasis Infobyte Intership
